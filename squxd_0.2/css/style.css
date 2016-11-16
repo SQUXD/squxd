@@ -1,0 +1,222 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.pageLoadedDiv {
+  display: none;
+}
+.front-page {
+  width: 100%;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: table;
+  max-width: none;
+  height: 100vh;
+}
+.header-section {
+  height: auto;
+  width: 100%;
+  padding: 0;
+  display: table;
+  max-width: none;
+}
+.header-content {
+  display: table-cell;
+  vertical-align: middle;
+  height: auto;
+  position:relative;
+}
+.svg-container {
+  margin: auto;
+  max-width: 300px;
+  width: 30%;
+  display: table;
+  vertical-align: middle;
+  position:relative;
+  height: auto;
+}
+.full-height{
+  height:100vh;
+  background:#FFFFFF;
+  text-align: center;
+}
+.table{
+  display: table-cell;
+  vertical-align: middle;
+  position:relative;
+  height: 100vh;
+  width:100%;
+}
+.box-uxd {
+  float: left;
+  fill: #000000;
+  height: auto;
+  display: block;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 70%;
+}
+.throwback {
+  height: auto;
+  display: block;
+  vertical-align: middle;
+  width: 100%;
+  margin: -75% 0 100% 0;
+  text-align: center;
+  padding: 0;
+}
+.box-nc {
+  height: auto;
+  display: block;
+  vertical-align: middle;
+  width: 100%;
+  margin: -70% 0 0 0;
+  text-align: center;
+  padding: 0;
+}
+.throwback h3 {
+  display: block;
+  text-align: center;
+  font: 400 20px/1.5 Kanit, Helvetica, Verdana, sans-serif;
+  padding: 0;
+  margin: auto;
+}
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+  vertical-align: middle;
+  float: left;
+  text-align: center;
+  font: 400 20px/1.5 Kanit, Helvetica, Verdana, sans-serif;
+  padding: 0;
+  margin: 0 0 -65% 0;
+}
+.button a:hover {
+  color: #ffc107;
+}
+.nickCooperDesign {
+  font: 400 14px/1.5 Kanit, Helvetica, Verdana, sans-serif;
+  margin: -46px 0 0;
+  padding: 0;
+  width: auto; 
+  height: auto;
+  text-decoration: underline;
+}
+#throwback2014 {
+  font: 400 14px/1.5 Kanit, Helvetica, Verdana, sans-serif;
+  margin:0;
+  padding-bottom: 10px;
+  width: auto; 
+  height: auto;
+  text-decoration: underline;
+}
+#throwback2014:hover {
+  text-decoration: underline;
+  color: #ef393a;
+  cursor: pointer;
+}
+.back {
+  font: 400 14px/1.5 Kanit, Helvetica, Verdana, sans-serif;
+  margin: -46px 0 0;
+  padding: 0;
+  width: auto; 
+  height: auto;
+  text-decoration: underline;
+}
+.back:hover {
+  text-decoration: underline;
+  color: #00bbd3;
+}
+p {
+  display: none;
+  vertical-align: middle;
+  width: 100%;
+  margin-top: -35%;
+  text-align: center;
+  font: 400 14px/1.5 Kanit, Helvetica, Verdana, sans-serif;
+}
+p a {
+ text-decoration: underline;
+}
+ul{
+  text-align: center;
+}
+li {
+  font: 200 14px/1.5 Kanit, Helvetica, Verdana, sans-serif;
+  list-style: none;
+  float: left;
+  padding: 20px 16px;
+}
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 65px;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(to right, #888888 10%, rgba(255, 255, 255, 0) 0%);
+  background-position: top;
+  background-size: 20px 2px;
+  background-repeat: repeat-x;
+}
+footer ul {
+  display: inline-block;
+  margin: 25px 0 0;
+  padding: 0;
+  /* For IE, the outcast */
+  zoom:1;
+  *display: inline;
+}
+footer li {
+  float: left;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  text-decoration: underline;
+  color: #00bbd3;
+}
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: underline;
+}
+@media only screen 
+    and (min-width: 300px) 
+    and (max-width: 750px) {
+  .svg-container {
+    width: 60%;
+  }
+  img {
+  margin: -5% 0 -50% 0;
+  }
+  h3 {
+    margin: 0 0 90% 0;
+  }
+  p {
+    display: none;
+    vertical-align: middle;
+    width: 100%;
+    margin-top: -35%;
+    text-align: center;
+    font: 400 14px/1.5 Kanit, Helvetica, Verdana, sans-serif;
+  }
+  ul{
+    text-align: center;
+  }
+  li {
+    font: 200 14px/1.5 Kanit, Helvetica, Verdana, sans-serif;
+    list-style: none;
+    float: left;
+    padding: 20px 12px;
+  } 
+}
